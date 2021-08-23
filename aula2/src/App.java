@@ -17,6 +17,9 @@ public class App {
 		System.out.println("Digite o nome do atleta: ");
 		Scanner leitor = new Scanner(System.in);
 		String name = leitor.nextLine();
+		
+		//limpando o buffer
+		leitor.nextLine();
 	
 		
 		System.out.println("Digite a idade do atleta: ");
